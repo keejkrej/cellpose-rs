@@ -1,0 +1,7 @@
+/target
+Cargo.lock
+# IDEs and other local config
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

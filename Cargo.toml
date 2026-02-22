@@ -1,0 +1,12 @@
+[package]
+name = "cellpose-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Cellpose cpsam inference in Rust via ONNX Runtime"
+
+[dependencies]
+ndarray = "0.17"
+ort = { version = "2.0.0-rc.11", default-features = false, features = ["std", "ndarray", "download-binaries", "tls-native", "copy-dylibs", "cuda"] }
+image = "0.25"
+
+[dev-dependencies]
