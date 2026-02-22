@@ -1,7 +1,10 @@
-/target
-Cargo.lock
-# IDEs and other local config
-.vscode/
-.idea/
+target/
+.uv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
 .DS_Store
-Thumbs.db
+*.swp
